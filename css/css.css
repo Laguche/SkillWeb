@@ -13,3 +13,13 @@
 .bg-gris {
     background-color: #6c757c;
 }
+
+.w-35 {
+    width: 35%;
+}
+.bg-suave{
+background-color: rgb(229, 250, 233);
+}
+.bg-oscuro{
+background-color: rgb(216, 237, 220);
+}

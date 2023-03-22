@@ -63,7 +63,7 @@
                             <a class="dropdown-item" href="#">Aves </a>
                             <a class="dropdown-item" href="#">Mamíferos </a>
                             <a class="dropdown-item" href="#">Peces </a>
-                            <a class="dropdown-item" href="#">Reptiles </a>
+                            <a class="dropdown-item" href="reptiles.html">Reptiles </a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -84,45 +84,45 @@
                             >Iniciar sesión</a
                         >
                     </li>
-                    <li class="nav-item">
-                        <a href="QuienSomos.html"
-                        class="nav-link">Quienes Somos(Pruebas)</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="reptiles.html" class="nav-link">Reptieles(Pruebas)</a>
-                    </li>
                 </ul>
             </div>
         </nav>
         <main>
             <div class="container-fluid">
-                <div id="slider1" class="carousel slide mt-4 rounded" data-ride="carousel">
-                  <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <img src="carrusel/anfibios1.png" class="d-block w-100 rounded" alt="anfibio">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="carrusel/anfibios1.png" class="d-block w-100 rounded" alt="anfibio">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="carrusel/aves1.png" class="d-block w-100 rounded" alt="ave">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="carrusel/mamiferos1.png" class="d-block w-100 rounded" alt="mamifero">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="carrusel/peces1.png" class="d-block w-100 rounded" alt="mamifero">
                         </div>
                         <div class="carousel-item">
-                              <img src="carrusel/aves1.png" class="d-block w-100 rounded" alt="ave">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="carrusel/mamiferos1.png" class="d-block w-100 rounded" alt="mamifero">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="carrusel/peces1.png" class="d-block w-100 rounded" alt="mamifero">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="carrusel/reptiles1.png" class="d-block w-100 rounded" alt="mamifero">
+                            <img src="carrusel/reptiles1.png" class="d-block w-100 rounded" alt="mamifero">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#slider1" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                      </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#slider1" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
                     </button>
-                </div>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
                 <h1 class="text-center">Catálogo de animales</h1>
                 <h2 class="text-center">Los otros habitantes de la tierra</h2>
                 <div class="row justify-content-between">
@@ -154,7 +154,7 @@
                         <a href="#">
                             <img src="categorias/reptiles.jpeg" class="rounded-circle mb-3 w-100" alt="reptiles">
                         </a>
-                        <a name="reptilesbtn" id="anfibiosbtn" class="btn-verde" href="#" role="button">Reptiles</a>
+                        <a name="reptilesbtn" id="anfibiosbtn" class="btn-verde" href="reptiles.html" role="button">Reptiles</a>
                     </div>
                 </div>
             </div>
@@ -165,19 +165,62 @@
                 <h1 class="text-center text-dark py-3">
                     CLM SKILL WEB - 2021
                 </h1>
-                <div class="container-fluid row justify-content-between">
+                <div class="mx-5 row justify-content-between">
                     <div class="col-lg-1">
-                        <a name="" id="" class="btn btn-verde" href="#" role="button"></a>
+                        <a name="subir" id="subir" class="btn-verde p-2 rounded-1" href="#" role="button">Subir</a>
                     </div>
                     <div class="col-lg-5">
-                        b5-col
+                        <nav class="nav btn-group-vertical text-white m-1 text-center">
+                        <p class="text-dark mb-2 w-100">Centros participantes</p>
+                          <a class="nav-link text-white p-0 text-center w-100" target="_blank" href="http://www.ies-azarquiel.es/">
+                            I.E.S. Azarquiel
+                          </a>
+                          <a class="nav-link text-white p-0 text-center w-100" target="_blank" href="http://www.iesjuanbosco.es/">
+                            I.E.S. Juan Bosco
+                          </a>
+                          <a class="nav-link text-white p-0 text-center w-100" target="_blank" href="http://iesmaestredecalatrava.es/">
+                            I.E.S. Maestre de Calatrava
+                          </a>
+                          <a class="nav-link text-white p-0 text-center w-100" target="_blank" href="https://cifpvirgendegracia.com/">
+                            C.I.F.P. Virgen de Gracia
+                          </a>
+                          <a class="nav-link text-white p-0 text-center w-100" target="_blank" href="http://www.iesgregorioprieto.com/">
+                            I.E.S. Gregorio Prieto
+                          </a>
+                          <a class="nav-link text-white p-0 text-center w-100" target="_blank" href="https://www.iespedromercedes.es/">
+                            I.E.S. Pedro Mercedes
+                          </a>
+                          <a class="nav-link text-white p-0 text-center w-100" target="_blank" href="http://briandademendoza.es/">
+                            I.E.S. Brianda de Mendoza
+                          </a>
+                          <a class="nav-link text-white p-0 text-center w-100" target="_blank" href="http://riberadeltajo.es/nuevaweb/">
+                            I.E.S. Ribera del Tajo
+                          </a>
+                        </nav>
                     </div>
                     <div class="col-lg-5">
-                        b5-col
+                        <nav class="nav btn-group-vertical text-white m-1">
+                            
+
+                            <a class="nav-link text-white p-0 text-center w-100" href="QuienSomos.html">
+                             Quienes somos 
+                            </a>
+                            <a class="nav-link text-white p-0 text-center w-100" href="#">
+                             Privacidad
+                            </a>
+                            <a class="nav-link text-white p-0 text-center w-100" href="#">
+                            Contacto
+                            </a>
+                          </nav>
                     </div>
                     <div class="col-lg-1">
-                        b1-col
+                        <a name="home" id="home" class="btn-verde p-2 rounded-1" href="#" role="button">HOME</a>
                     </div>
+                </div>
+                <div class="text-center text-black py-3">
+                    <strong>
+                        Catalogo de animales &#169; DIMAS - SUFIAN - ISMAEL
+                    </strong>
                 </div>
             </div>
         </footer>
@@ -185,6 +228,77 @@
 
         <!-- Modal Body (data-bs-toggle="modal" data-bs-target="#modalLogin")-->
         <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+        <div
+            class="modal fade"
+            id="modalRegistro"
+            tabindex="-1"
+            data-bs-keyboard="false"
+            role="dialog"
+            aria-labelledby="modalTitleId"
+            aria-hidden="true"
+        >
+            <div
+                class="modal-dialog modal-dialog-scrollable modal-dialog-centered"
+                role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title text-center w-100" id="modalTitleId">
+                            Registro de usuario
+                        </h1>
+                    </div>
+                    <div class="modal-body">
+                        <form class="row g-lg-3 needs-validation" novalidate>
+                          <div class="col-md-12">
+                            <label for="validationCustom01" class="form-label">Usuario</label>
+                            <input type="text" class="form-control" id="validationCustom01" value="" required>
+                            <div class="invalid-feedback">
+                              Looks good!
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <label for="validationCustom02" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="validationCustom02" value="" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <label for="validationCustom03" class="form-label">Repite la contraseña</label>
+                            <input type="password" class="form-control" id="validationCustom03" value="" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <label for="validationCustom03" class="form-label">Email</label>
+                            <input type="text" class="form-control" id="validationCustom03" value="" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <label for="validationCustom03" class="form-label">Dirección</label>
+                            <input type="text" class="form-control" id="validationCustom03" value="" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <label for="validationCustom03" class="form-label">Teléfono</label>
+                            <input type="text" class="form-control" id="validationCustom03" value="" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a name="modalbtn" id="anfibiosbtn" class="btn-verde w-100 py-1" href="#" role="button">Enviar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div
             class="modal fade"
             id="modalLogin"
@@ -195,24 +309,35 @@
             aria-hidden="true"
         >
             <div
-                class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                class="modal-dialog modal-dialog-scrollable modal-dialog-centered"
                 role="document"
             >
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title text-center" id="modalTitleId">
+                        <h5 class="modal-title text-center w-100" id="modalTitleId">
                             INICIA SESIÓN
                         </h5>
                     </div>
-                    <div class="modal-body">Body</div>
+                    <div class="modal-body">
+                        <form class="row g-2 needs-validation" novalidate>
+                          <div class="col-md-12">
+                            <label for="validationCustom01" class="form-label">Usuario</label>
+                            <input type="text" class="form-control" id="validationCustom01" value="" required>
+                            <div class="invalid-feedback">
+                              Looks good!
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <label for="validationCustom02" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="validationCustom02" value="" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                          </div>
+                        </form>
+                    </div>
                     <div class="modal-footer">
-                        <button
-                            type="button"
-                            class="btn btn-primary"
-                            data-bs-dismiss="modal"
-                        >
-                            Enviar
-                        </button>
+                        <a name="modalbtn" id="anfibiosbtn" class="btn-verde w-100 py-1" href="#" role="button">Enviar</a>
                     </div>
                 </div>
             </div>
