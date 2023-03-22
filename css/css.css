@@ -1,3 +1,15 @@
 .bg-verde{
     background-color: #e5fae9;
 }
+
+.btn-verde {
+    background-color: #27a844;
+    border-radius: 0;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.bg-gris {
+    background-color: #6c757c;
+}
